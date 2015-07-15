@@ -52,6 +52,7 @@ BOARD_RIL_CLASS := ../../../device/samsung/lt033g/ril
 COMMON_GLOBAL_CFLAGS += -DSEC_PRODUCT_FEATURE_RIL_CALL_DUALMODE_CDMAGSM
 
 # SELinux
+include device/samsung/lt03-common/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += \
     device/samsung/lt033g/sepolicy
 
